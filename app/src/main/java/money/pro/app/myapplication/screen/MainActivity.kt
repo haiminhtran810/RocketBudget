@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import money.pro.app.myapplication.R
+import money.pro.app.myapplication.screen.mainfragment.MainFragment
 import money.pro.app.myapplication.screen.welcomefragment.WelcomeFragment
 import org.koin.android.viewmodel.ext.android.viewModel
 
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
         supportFragmentManager.beginTransaction().replace(
             R.id.parent,
-            WelcomeFragment.newInstance(), WelcomeFragment.TAG
+            MainFragment.newInstance(), MainFragment.TAG
         ).commitNow()
     }
 
