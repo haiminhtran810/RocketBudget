@@ -91,4 +91,7 @@ dependencies {
 
     //ahbottomnavigation
     implementation 'com.aurelhubert:ahbottomnavigation:2.1.0'
+
+    //https://github.com/hdodenhof/CircleImageView
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
 }
